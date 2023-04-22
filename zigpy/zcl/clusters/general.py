@@ -1297,11 +1297,3 @@ class PollControl(Cluster):
         0x0003: ("set_short_poll_interval", (t.uint16_t,), False),
     }
     client_commands = {0x0000: ("checkin", (), False)}
-
-
-class GreenPowerProxy(Cluster):
-    cluster_id = 0x0021
-    ep_attribute = "green_power"
-    attributes = {}
-    server_commands = {}
-    client_commands = {}

@@ -2,6 +2,7 @@
 from . import (
     closures,
     general,
+    greenpower,
     homeautomation,
     hvac,
     lighting,
